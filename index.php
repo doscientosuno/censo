@@ -107,6 +107,7 @@
 
   		<label for="campus">Campus</label>
       <select id="campus" name="campus" required data-campus>
+        <option></option>
         <option value="047">Valladolid</option>
         <option value="034">Palencia</option>
         <option value="040">Segovia</option>
@@ -115,6 +116,7 @@
 
       <label for="centro">Centro (Escuela o Facultad)</label>
       <select id="centro" name="centro" required>
+        <option></option>
         <option value="1" data-center="034">Escuela de Enfermería</option>
         <option value="2" data-center="034">Escuela Técnica Superior de Ingenierías Agrarias</option>
         <option value="3" data-center="034">Facultad de Ciencias del Trabajo</option>
