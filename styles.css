@@ -35,6 +35,11 @@ html {
   }
 }
 
+h1 {
+  color: green;
+  background: url('sierra500.png') no-repeat center right / contain;
+}
+
 .form-group {
   display: block;
   width: 100%;

@@ -12,7 +12,8 @@
 
 <body>
   <header class="container">
-    <h1>Participa en las primarias de Alternativa Universitaria</h1>
+    <h1>Elecciones al Claustro<br />Participa en las primarias de<br />Alternativa Universitaria</h1>
+    <hr />
   </header>
 
   <article class="container">
@@ -110,6 +111,7 @@
 
       if ($conn->query($query) !== TRUE) {
         $error = 1;
+        echo "Error: " . $sql . "<br>" . $conn->error;
         $msg .= "<p>Ha habido un problema con la base de datos.</p>";
       }
 
