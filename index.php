@@ -209,7 +209,7 @@
       <div class="form-group" data-campus>
     		<label class="control-label" for="campus">Campus</label>
         <div class="form-control">
-          <select id="campus" name="campus" required data-campus-value>
+          <select id="campus" name="campus" data-campus-value>
             <option></option>
             <option value="047">Valladolid</option>
             <option value="034">Palencia</option>
@@ -221,7 +221,7 @@
       <div class="form-group" data-center>
         <label class="control-label" for="centro">Centro (Escuela o Facultad)</label>
         <div class="form-control">
-          <select id="centro" name="centro" required>
+          <select id="centro" name="centro">
             <option></option>
             <option value="1" data-campus-center="034">Escuela de Enfermería</option>
             <option value="2" data-campus-center="034">Escuela Técnica Superior de Ingenierías Agrarias</option>
